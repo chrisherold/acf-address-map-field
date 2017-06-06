@@ -1,6 +1,13 @@
 Advanced Custom Fields: Address/Map Field
 =====================
 
+This fork updates this ACF plugin for an address/map field. This plugin currently works for v5 (v4 code kept in this repo for continuity but hasn't been updated, but would gladly accept a PR for updates). 
+
+Google now requires the use of an API key for maps. ACF provides a guide to registering an API and adding to your functions.php and then this plugin should work correctly:
+https://www.advancedcustomfields.com/blog/google-maps-api-settings/
+
+---chrisgoddard/acf-address-map-field original readme---
+
 *Please Note: I don't actively maintain this plugin*
 
 I wanted a better map field for ACF - the native Google Map field only returns a single string for the name, which makes display and schema harder.
